@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Dotsquares_Grid Menu
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Dotsquares_Grid::manager" title="Grid Manager" module="Dotsquares_Grid" sortOrder="10" resource="Dotsquares_Grid::manager"/>
+
+        <add id="Dotsquares_Grid::add_row" title="Grid Manager" module="Dotsquares_Grid" sortOrder="20" parent="Dotsquares_Grid::manager" action="grid/grid" resource="Dotsquares_Grid::add_row"/>
+    </menu>
+</config>
+   
